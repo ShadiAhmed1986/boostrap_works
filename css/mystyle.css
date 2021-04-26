@@ -1,0 +1,59 @@
+.bg-bluee{
+    background-color: #073B4C;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size:2rem;
+    font-weight: bold;
+}
+.nav-radius{
+    border-radius: 1rem;   
+}
+.top-part-space{
+    padding: 2% 5%;
+}
+.top-button-45px-space{
+    padding: 45px 0;
+}
+.slogan{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 10%;
+}
+
+@media (min-width:768px) {
+    .image{
+        transform: rotate(25deg);
+        width: 100%;
+        margin-left: 10%;
+    }   
+}
+@media (max-width:767px){
+    .image{
+        transform: rotate(0deg);
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }    
+}
+.download-links{
+    display: flex;
+    justify-content: center;
+}
+.fas{
+    color: #FFD166;
+    margin-left: 10%;
+}
+#comments{
+    padding: 2% 10%;
+}
+#comments p{
+    padding: 15%;
+    font-size: 1.5rem;
+}
+#comments img{
+    width: 10%;
+    margin-left: 30%;
+
+}
